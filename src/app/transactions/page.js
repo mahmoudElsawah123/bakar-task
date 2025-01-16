@@ -4,9 +4,9 @@ import TableDemo from '../components/TableDemo'
 const page = () => {
   const MemoizedTableDemo = memo(TableDemo)
   return (
-    <div>
+    <section>
       <MemoizedTableDemo/>
-    </div>
+    </section>
   )
 }
 

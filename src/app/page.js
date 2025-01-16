@@ -19,9 +19,9 @@ const page = async () => {
     return <div>loading....</div>;
   }
   return (
-    <div>
+    <section>
         <HomePage data={getData}/>
-    </div>
+    </section>
   )
 };
 
